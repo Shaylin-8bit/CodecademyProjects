@@ -14,6 +14,7 @@ std::map<std::string, float> gen_map(void) {
 
 
 class Account {
+  private:
   std::string _name;
   float _balance;
 
@@ -48,6 +49,7 @@ class Account {
 
 
 class Bank {
+  private:
   float _amount;
   std::string _name;
   std::map<std::string, float> _map;
